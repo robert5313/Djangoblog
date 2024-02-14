@@ -23,3 +23,16 @@ body{
     margin: 1%;
     padding: 1.5%;
 }
+.container-card h3{
+    color: blue;
+    margin: 2% 0;
+}
+.container-card p{
+    margin: 4% 0;
+}
+.container-card a{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px; 
+}
