@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: grey;
+    color: black;
+}
+
+.header{
+    margin: 4%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container-card{
+    background-color: #fff;
+    flex-basis: 30%;
+    margin: 1%;
+    padding: 1.5%;
+}
