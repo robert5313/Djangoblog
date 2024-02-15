@@ -16,19 +16,20 @@ const ArticleDetails = () => {
     }, [id]);
 
   return (
-    <div>{article ? (
+    <div>
+        <h2 className='title'>Detailed Blog</h2>
+    <div className='header-1'>{article ? (
         <div>
             <h2>Title: {article.title}</h2>
             <p>Content: {article.content}</p>
             <h3>Category: {article.category}</h3>
-            <h3>Author: {article.author}</h3>
             <p>Views: {article.views}</p>
-            <p>Summary: {article.summary}</p>
             <h>Created_at: {article.created_at}</h>
         </div>
     ) : (
         <p>Loading...</p>
     )}  
+    </div>
     </div>
   )
 }
