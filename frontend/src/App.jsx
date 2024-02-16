@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import ArticleList from './components/ArticleList';
 import ArticleDetails from './components/ArticleDetails';
 import './App.css'
+import About from './components/About';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
 
 <header>
   <div className="logo">
+    <img src="https://cdn.logojoy.com/wp-content/uploads/20231221095829/Surge-Select-Still.webp" width='80' alt="MasterClass" />
           <ul>
             <li>
               <Link to='/' >Home</Link>
@@ -32,6 +34,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<ArticleList />} />
           <Route exact path="/ArticleList/:id" element={<ArticleDetails />} />
+          <Route exact path="/about" element={<About />} />
         </Routes>
       </div>
       <footer>
